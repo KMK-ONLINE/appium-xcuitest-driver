@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WebDriverAgentRunner</key>
+	<dict>
+		<key>BundleIdentifiersForCrashReportEmphasis</key>
+		<array>
+			<string>com.facebook.WebDriverAgentRunner</string>
+			<string>com.facebook.WebDriverAgentLib</string>
+		</array>
+		<key>CommandLineArguments</key>
+		<array/>
+		<key>DependentProductPaths</key>
+		<array>
+			<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner.app/PlugIns/WebDriverAgentRunner.xctest</string>
+			<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentLib.framework</string>
+		</array>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>OS_ACTIVITY_DT_MODE</key>
+			<string>YES</string>
+		</dict>
+		<key>IsUITestBundle</key>
+		<true/>
+		<key>ProductModuleName</key>
+		<string>WebDriverAgentRunner</string>
+		<key>TestBundlePath</key>
+		<string>__TESTHOST__/PlugIns/WebDriverAgentRunner.xctest</string>
+		<key>TestHostBundleIdentifier</key>
+		<string>com.apple.test.WebDriverAgentRunner-Runner</string>
+		<key>TestHostPath</key>
+		<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner.app</string>
+		<key>TestingEnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>__TESTROOT__/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>__TESTROOT__/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks</string>
+			<key>XCODE_DBG_XPC_EXCLUSIONS</key>
+			<string>com.apple.dt.xctestSymbolicator</string>
+		</dict>
+		<key>ToolchainsSettingValue</key>
+		<array/>
+		<key>UseUITargetAppProvidedByTests</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
